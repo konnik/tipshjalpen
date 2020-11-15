@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm ./dist/main.js && elm make src/Main.elm --output ./dist/main.js",
-    "dev": "elm-live src/Main.elm -- --output=./dist/main.js"
+    "dev": "elm-live --dir ./dist/ src/Main.elm -- --output=./dist/main.js"
   },
   "author": "",
   "license": "ISC",
