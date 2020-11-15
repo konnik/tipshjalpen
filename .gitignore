@@ -10,7 +10,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -129,9 +128,9 @@ dmypy.json
 .pyre/
 
 #Elm-stuff
+dist/main.js
 elm-stuff/*
 elm-stuff
-index.html
 node_modules
 0.19.1/
 0.19.1
@@ -147,7 +146,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
